@@ -1,0 +1,42 @@
+
+.page-header {
+    text-align: center;
+    background-color: #34A0A4;
+    padding: 5px;
+    margin: 0px;
+    color: #B5E48C;
+    text-shadow: 5px black;
+    border: 2px dotted #B5E48C;
+}
+
+.fish{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.fish-info {
+    color: #76C893;
+    background-color: #319cce;
+    text-shadow: 5px black;
+    border: 2px solid darkblue;
+    padding: 2px;
+    margin: 2px;
+    width: 50%;
+}
+
+.fish-image {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 300px;
+}
+
+.clean-tank {
+    color: #319cce;
+    background-color: #76C893;;
+    border: 2px solid darkblue;
+    padding: 2px;
+    margin: 2px;   
+    width: 50%;
+}
