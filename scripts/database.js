@@ -10,21 +10,21 @@
 const database = {
     fish: [
         {
-            image: <img class="fish-image" src="pictures/mahi-mahi.jpeg"></img>,
+            image: `<img src="mahi-mahi.jpeg"></img>`,
             species: "Mahi Mahi",
             length: "4 ft",
             location: "Caribbean",
             food: "Small fish"
         }, 
         {
-            image: "",
+            image: '<img src="sailfish.webp"></img>',
             species: "Sailfish",
             length: "7 ft",
             location: "Atlantic Ocean",
             food: "Fish and squids"
         },
         {
-            image: "",
+            image: '<img src="salmon.jpeg"></img>',
             species: "Salmon",
             length: "3 ft",
             location: "Pacific Ocean",
@@ -34,7 +34,6 @@ const database = {
 }
 
 //Function to copy the fish array and allow other modules to use it's data
-
 export const getFish = () => {
     return database.fish.map(fish => ({...fish}))
 }
