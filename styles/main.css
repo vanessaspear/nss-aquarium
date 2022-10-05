@@ -11,8 +11,9 @@
 
 .fish{
     display: flex;
-    flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .fish-info {
@@ -22,7 +23,17 @@
     border: 2px solid darkblue;
     padding: 2px;
     margin: 2px;
-    width: 50%;
+    width: 48%;
+}
+
+.fish-info__width100 {
+    color: #76C893;
+    background-color: #319cce;
+    text-shadow: 5px black;
+    border: 2px solid darkblue;
+    padding: 2px;
+    margin: 2px;
+    width: 98%;
 }
 
 .fish-image {
@@ -38,5 +49,9 @@
     border: 2px solid darkblue;
     padding: 2px;
     margin: 2px;   
-    width: 50%;
+    width: 48%;
+}
+
+.traveltips {
+    margin: 5px;
 }
