@@ -10,22 +10,22 @@
 const database = {
     fish: [
         {
-            image: `<img src="mahi-mahi.jpeg"></img>`,
-            species: "Mahi Mahi",
+            image: "Pictures/mahi-mahi.jpeg",
+            name: "Mahi Mahi",
             length: "4 ft",
             location: "Caribbean",
             food: "Small fish"
         }, 
         {
-            image: '<img src="sailfish.webp"></img>',
-            species: "Sailfish",
+            image: "Pictures/sailfish.webp",
+            name: "Sailfish",
             length: "7 ft",
             location: "Atlantic Ocean",
             food: "Fish and squids"
         },
         {
-            image: '<img src="salmon.jpeg"></img>',
-            species: "Salmon",
+            image: "Pictures/salmon.jpeg",
+            name: "Salmon",
             length: "3 ft",
             location: "Pacific Ocean",
             food: "Small amphibians, fish, and crustaceans"
